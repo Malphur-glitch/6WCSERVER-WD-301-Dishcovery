@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dishcovery
 Dishcovery is a restaurant discovery web app. Visitors can browse a catalogue of restaurants, search by name or cuisine, filter by borough, see which restaurants have the highest aggregated inspection scores, and save their own favorites and reviews.
 
@@ -435,3 +436,6 @@ dishcovery/
 - **Consistent errors.** Errors return the `{ error: { message } }` envelope without stack traces, and the `X-Powered-By` header is disabled.
 - **Proxy awareness.** `trust proxy` is enabled so `Secure` cookies work behind the hosting provider's proxy.
 - **Database network access.** Atlas Network Access is set to `0.0.0.0/0` because the hosting provider's IP addresses change. This makes a strong database password essential; use a dedicated database user with access limited to `dbRestaurants`.
+=======
+# 6WCSERVER-WD-301-Dishcovery
+>>>>>>> e3e4cc2d8a3fd83436d22d299fc8058ae4490252
